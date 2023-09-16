@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800;6..12,900;6..12,1000&family=Poppins:wght@100&family=Work+Sans:wght@200;300;400;500;600;700;800;900&display=swap');
+:root{
+    --p-color:#43BAFF;
+    --s-color:#7141B1;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    scroll-behavior: smooth;
+    width: 100%;
+    height: auto;
+    background: #fff;
+}
+/* Root Related Style */
+.p_btn{
+    padding: 20px 35px;
+    background-color: var(--p-color);
+    text-decoration: none;
+    color: white;
+    transition: .4s all;
+    font-weight: bold;
+    line-height: 18px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.p_btn:hover{
+    background-color: var(--s-color);
+}
+.border-start{
+    border-left: 1px solid rgba(255, 255, 255, 0.2) !important;
+   
+}
+.border-end{
+    border-right: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+/* Root Related Style */
+
+/* Header STyle Here */
+/* Top Nav */
+.top_navbar{
+    background-color: #141D38;
+}
+.top_navbar a{
+    color: #b5b5b5;
+    transition: .3s all;
+}
+.top_navbar a:hover{
+    color: var(--p-color);
+}
+/* Top Nav */
+
+/* Main Nav */
+nav .dropdown .dropdown-menu .dropdown-item{
+    transition: .4s all;
+}
+nav .dropdown .dropdown-menu .dropdown-item:hover{
+    margin-left: 5px;
+}
+nav .dropdown:hover .dropdown-menu{
+    display: unset !important;
+    overflow-x: hidden;
+    margin-top: 0px !important;
+}
+nav .dropdown .dropdown-menu{
+    margin-top: 40px !important;
+    transition: 1s all !important;
+    border: none !important;
+    border-radius: none !important;
+}
+.navbar-nav a{
+    color: black !important;
+}
+.nav_serach_item .dropdown-menu{
+    padding: 10px !important;
+    background: white;
+}
+
+/* Main Nav */
+
+/* Header STyle End */
