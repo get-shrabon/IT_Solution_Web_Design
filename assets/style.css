@@ -68,6 +68,7 @@ nav .dropdown .dropdown-menu {
   transition: 1s all !important;
   border: none !important;
   border-radius: none !important;
+  box-shadow: 0 0 20px 0 rgba(128, 128, 128, 0.208);
 }
 nav .nav-link{
   position: relative;
@@ -98,15 +99,18 @@ nav .nav-link:hover::before{
   margin-top: 30px;
   padding-top: 30px !important;
   padding-bottom: 30px !important;
+  box-shadow: 0 0 20px 0 rgba(128, 128, 128, 0.208);
 }
 .search_item .dropdown-menu{
     left: -130px !important;
+    box-shadow: 0 0 20px 0 rgba(128, 128, 128, 0.208);
 }
 .modal-body{
     display: flex;
     justify-content: center;
     align-items: center;
     padding-bottom: 20px !important;
+    z-index: 2;
 }
 .modal-body input{
     border: none;
@@ -138,12 +142,17 @@ nav .nav-link:hover::before{
     position: fixed;
     top: 0 !important;
     width: 100%;
+    z-index: 1;
     margin-top: 0px !important;
-    transition: 0.4s !important;
+    transition: .5s !important;
     background-color: white;
+    box-shadow: 0 0 20px 0 rgba(128, 128, 128, 0.208);
   }
-
-
 /* Main Nav */
-
 /* Header Style End */
+
+/* Main Start */
+/* Hero Section Style Here */
+
+/* Hero Section Style Here */
+/* Main End */
