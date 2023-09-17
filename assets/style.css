@@ -74,6 +74,10 @@ nav .nav-link {
   position: relative;
   margin: 0px 10px;
   padding: 30px 0px;
+  transition: .3s all;
+}
+nav .nav-link:hover{
+  color: var(--p-color) !important;
 }
 nav .nav-link::before {
   content: "";
@@ -220,4 +224,13 @@ nav .nav-link:hover::before {
   bottom: -40px;
 }
 /* Hero Section Style Here */
+
+/* Partner Section Style Here */
+.partner_container{
+  background-color: #F8F8F8;
+  width: 100%;
+  height: auto;
+  padding: 10px 0px !important;
+}
+/* Partner Section Style End */
 /* Main End */
