@@ -422,7 +422,8 @@ nav .nav-link:hover::before {
 .choose_container {
   width: 100%;
   height: auto;
-  padding: 50px 0px !important;
+  padding-top: 50px !important;
+  padding-bottom: 200px !important;
   background: #221f3c;
   color: white;
   margin-top: 100px;
@@ -479,4 +480,43 @@ nav .nav-link:hover::before {
   font-size: 14px !important;
 }
 /* Choose Section Style End */
+
+/* Service Section Style Here */
+.service_container .customers{
+flex-wrap: nowrap;
+}
+.customer_1{
+  background-image: url("Images/cus\ 1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  padding: 40px;
+  color: white;
+}
+.customer_2{
+  background-image: url("Images/cus\ 2.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  padding: 40px;
+  color: white;
+}
+.m-top{
+  margin-top: -130px;
+}
+.service_item{
+  display: flex;
+  align-items: start;
+  gap: 20px;
+}
+.service_item span{
+  color: var(--s-color);
+  transition: .3s all linear;
+}
+.service_item:hover span{
+  color: var(--p-color);
+}
+/* Service Section Style End */
 /* Main End */

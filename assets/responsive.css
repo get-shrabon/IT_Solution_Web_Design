@@ -20,6 +20,15 @@
     .row{
         gap: 20px !important;
     }
+    .service_title{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start !important;
+    }
+    .service_container .customers{
+        flex-wrap: wrap !important;
+        }
 }
 @media screen and (min-width:577px) and (max-width:992px) {
     .about_video_item{
