@@ -74,9 +74,9 @@ nav .nav-link {
   position: relative;
   margin: 0px 10px;
   padding: 30px 0px;
-  transition: .3s all;
+  transition: 0.3s all;
 }
-nav .nav-link:hover{
+nav .nav-link:hover {
   color: var(--p-color) !important;
 }
 nav .nav-link::before {
@@ -158,7 +158,6 @@ nav .nav-link:hover::before {
 /* Hero Section Style Here */
 .hero_container {
   width: 100%;
-  margin-bottom: 200px;
 }
 .hero_container h1 {
   font-weight: bolder;
@@ -226,11 +225,44 @@ nav .nav-link:hover::before {
 /* Hero Section Style Here */
 
 /* Partner Section Style Here */
-.partner_container{
-  background-color: #F8F8F8;
+.partner_container {
+  background-color: #f8f8f8;
   width: 100%;
   height: auto;
   padding: 10px 0px !important;
+  margin-top: -20px;
+}
+.myPartners {
+  overflow-x: hidden;
+  display: flex;
+}
+.partner_items {
+  display: flex;
+  justify-content: space-between !important;
+  align-items: center;
+  animation: 50s slide infinite linear;
+  transition: 0.4s all;
+}
+.partner_items img {
+  width: 100px;
+  height: 100px;
+  filter: grayscale(1);
+  transition: 0.4s all;
+  margin: 0px 60px !important;
+}
+.myPartners:hover .partner_items {
+  animation-play-state: paused;
+}
+.partner_items a:hover img {
+  filter: grayscale(0);
+}
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }
 /* Partner Section Style End */
 /* Main End */

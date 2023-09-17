@@ -2,4 +2,16 @@
     .top_navbar{
         display: none;
     }
+    .swiper-button-next{
+        left: 100px !important;
+    }
+    .swiper-button-prev{
+        left: 100px !important;
+    }
+    .number_pagination{
+        padding-left: 15px !important;
+    }
+    .myPartners .partner_items img{
+        margin: 0px !important;
+    }
 }

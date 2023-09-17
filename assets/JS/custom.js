@@ -35,3 +35,8 @@ var swiper = new Swiper(".heroSlider", {
     },
   });
 // Swiper Slider
+
+// Partner Slider JS
+var copy = document.querySelector(".partner_items").cloneNode(true);
+document.querySelector(".myPartners").appendChild(copy);
+// Partner Slider JS
