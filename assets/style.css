@@ -451,9 +451,9 @@ nav .nav-link:hover::before {
   position: relative;
   z-index: 2;
   overflow: hidden;
-  transition: .3s all linear;
+  transition: 0.3s all linear;
 }
-.choose_item:hover{
+.choose_item:hover {
   background: white;
   color: black;
 }
@@ -465,10 +465,10 @@ nav .nav-link:hover::before {
   left: -5px;
   font-weight: bold;
   z-index: -1;
-  transition: .3s all linear;
+  transition: 0.3s all linear;
   user-select: none;
 }
-.choose_item:hover .big_number{
+.choose_item:hover .big_number {
   color: #f4f6f6;
 }
 .choose_icon_box {
@@ -479,9 +479,9 @@ nav .nav-link:hover::before {
   height: 188px;
   border-radius: 50%;
   background: #332d5f;
-  transition: .3s all linear;
+  transition: 0.3s all linear;
 }
-.choose_item:hover .choose_icon_box{
+.choose_item:hover .choose_icon_box {
   background: var(--p-color);
   color: white;
 }
@@ -492,19 +492,19 @@ nav .nav-link:hover::before {
   font-size: 35px;
   line-height: 1;
 }
-.choose_item .learn_more{
+.choose_item .learn_more {
   font-size: 14px !important;
 }
 /* Choose Section Style End */
 
 /* Service Section Style Here */
-.service_container{
+.service_container {
   padding-bottom: 200px !important;
 }
-.service_container .customers{
-flex-wrap: nowrap;
+.service_container .customers {
+  flex-wrap: nowrap;
 }
-.customer_1{
+.customer_1 {
   background-image: url("Images/cus\ 1.jpg");
   background-position: center center;
   background-repeat: no-repeat;
@@ -513,7 +513,7 @@ flex-wrap: nowrap;
   padding: 40px;
   color: white;
 }
-.customer_2{
+.customer_2 {
   background-image: url("Images/cus\ 2.jpg");
   background-position: center center;
   background-repeat: no-repeat;
@@ -522,29 +522,29 @@ flex-wrap: nowrap;
   padding: 40px;
   color: white;
 }
-.m-top{
+.m-top {
   margin-top: -130px;
 }
-.service_item{
+.service_item {
   display: flex;
   align-items: start;
   gap: 20px;
 }
-.service_item span{
+.service_item span {
   color: var(--s-color);
-  transition: .3s all linear;
+  transition: 0.3s all linear;
 }
-.service_item:hover span{
+.service_item:hover span {
   color: var(--p-color);
 }
 /* Service Section Style End */
 
 /* NewsLetter Section Style here */
-.newsletter_section{
-  background-color: #F8F8F8;
+.newsletter_section {
+  background-color: #f8f8f8;
   padding: 50px 0px !important;
 }
-.newsletter_container{
+.newsletter_container {
   background-image: url("Images/newsletter.jpg");
   background-position: center center;
   background-repeat: no-repeat;
@@ -556,4 +556,80 @@ flex-wrap: nowrap;
   margin-top: -200px;
 }
 /* NewsLetter Section Style End */
+
+/* Expertise Section Style Here */
+.expertise_container {
+  padding: 0px 10px !important;
+  margin: 30px 0px !important;
+}
+.card-body{
+  background-color: #262051;
+  color: white;
+  width: 80%;
+  margin: auto auto;
+  flex: none !important;
+  padding: 30px 20px !important;
+  margin-top: -60px;
+  position: relative;
+  overflow: hidden;
+}
+.card{
+  border:none !important;
+  
+}
+.card-img-top{
+overflow: hidden;
+}
+.card-img-top img{
+  width: 100% !important;
+  transition: .3s all linear;
+}
+.card:hover .card-img-top img{
+  scale: calc(1.1);
+  filter: contrast(150%);
+  opacity: .8;
+}
+.card_icon{
+  position: absolute;
+  right: -94px;
+  top: -100px;
+  width: 188px;
+  height: 188px;
+  background: rgba(255, 255, 255, 0.07);
+  border-radius: 50%;
+  transition: .3s all linear;
+}
+.card:hover .card_icon{
+  background: var(--p-color);
+}
+.card:hover .card_icon i{
+  color: white;
+}
+.card_icon i{
+  position: absolute;
+  bottom: 45px;
+  left: 50px;
+  line-height: 1;
+  color: #43baff;
+  transition: .3s all linear;
+}
+.swiper-pagination-bullet-active {
+  background: var(--s-color) !important;
+}
+/* Expertise Section Style End */
+
+/* Solution Section Style Here */
+.solution_container{
+  background-image: url("Images/solution\ bg.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0px !important;
+  width: 100%;
+  height: auto;
+  margin: 30px 0px !important;
+  text-align: center;
+  color: white;
+}
+/* Solution Section Style End */
 /* Main End */

@@ -29,29 +29,32 @@
   .service_container .customers {
     flex-wrap: wrap !important;
   }
-  .newsletter_container{
+  .newsletter_container {
     padding: 0px 30px !important;
     display: flex;
     justify-content: center !important;
-    align-items:center !important;
+    align-items: center !important;
     text-align: center;
   }
-  .letter{
+  .letter {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items:center ;
+    align-items: center;
     text-align: center;
     width: fit-content;
     border: 1px solid white;
     padding: 10px;
     backdrop-filter: blur(15px);
   }
-  .letter_detail{
+  .letter_detail {
     display: flex;
     flex-direction: column;
     text-align: center;
     gap: 0 !important;
+  }
+  .card {
+    width: 390px !important;
   }
 }
 @media screen and (min-width: 577px) and (max-width: 992px) {
@@ -65,14 +68,14 @@
   .row {
     row-gap: 20px !important;
   }
-  .newsletter_container{
+  .newsletter_container {
     padding: 30px 0px 0px 0px !important;
   }
-  .letter{
+  .letter {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items:center ;
+    align-items: center;
     text-align: center;
   }
 }
