@@ -17,6 +17,9 @@
     .about_shape{
         display: none;
     }
+    .row{
+        gap: 20px !important;
+    }
 }
 @media screen and (min-width:577px) and (max-width:992px) {
     .about_video_item{
@@ -25,5 +28,8 @@
     }
     .about_shape{
         display: none;
+    }
+    .row{
+        row-gap: 20px !important;
     }
 }
