@@ -56,6 +56,10 @@
   .card {
     width: 390px !important;
   }
+  .solution_items{
+   flex-direction: column;
+   gap: 20px;
+  }
 }
 @media screen and (min-width: 577px) and (max-width: 992px) {
   .about_video_item {
@@ -77,5 +81,10 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+  }
+  .solution_items{
+    flex-wrap: wrap;
+    gap: 20px;
+    row-gap: 50px !important;
   }
 }
