@@ -131,3 +131,32 @@
     margin-bottom: 100px;
   }
 }
+@media screen and (min-width:1400px) {
+  .myTestimoniual .swiper-button-prev{
+    margin-left: 970px !important;
+  }
+  .hero_slider_1 {
+    height: 100vh !important;
+    display: flex;
+    align-items: center !important;
+    padding: 250px 0px !important;
+  }
+  .hero_slider_2 {
+    height: 100vh !important;
+    display: flex;
+    align-items: center !important;
+    padding: 250px 0px !important;
+  }
+  .hero_slider_3 {
+    height: 100vh !important;
+    display: flex;
+    align-items: center !important;
+    padding: 250px 0px !important;
+  }
+  .number_pagination{
+    padding-left: 305px !important;
+  }
+  .slider_button{
+    padding-left: 100px !important;
+  }
+}
