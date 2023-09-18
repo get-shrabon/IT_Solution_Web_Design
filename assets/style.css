@@ -623,12 +623,14 @@ nav .nav-link:hover::before {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   padding: 100px 0px !important;
   width: 100%;
   height: auto;
   margin: 30px 0px !important;
   text-align: center;
   color: white;
+
 }
 .solution_items {
   display: flex;
@@ -666,6 +668,7 @@ nav .nav-link:hover::before {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 .test_card{
   box-shadow: 1px 1px 10px 1px rgba(128, 128, 128, 0.27);
