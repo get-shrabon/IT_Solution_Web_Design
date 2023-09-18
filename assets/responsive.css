@@ -60,6 +60,22 @@
    flex-direction: column;
    gap: 20px;
   }
+  .solution_item{
+    width: 100% !important;
+  }
+  .myTestimoniual .swiper-button-next {
+    display: none;
+  }
+  .myTestimoniual .swiper-button-prev {
+    display: none;
+  }
+  .myTestimoniual .test_card{
+    padding: 15px !important;
+    text-align: center;
+  }
+  .myTestimoniual .swiper-pagination{
+    display: unset !important;
+  }
 }
 @media screen and (min-width: 577px) and (max-width: 992px) {
   .about_video_item {
@@ -86,5 +102,11 @@
     flex-wrap: wrap;
     gap: 20px;
     row-gap: 50px !important;
+  }
+  .myTestimoniual .swiper-button-prev{
+    margin-left: 370px !important;
+  }
+  .myTestimoniual .test_card{
+    padding: 15px !important;
   }
 }

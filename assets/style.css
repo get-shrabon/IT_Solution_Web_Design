@@ -654,4 +654,64 @@ nav .nav-link:hover::before {
   color: white;
 }
 /* Solution Section Style End */
+
+/* Testmoniual Section Style Here */
+.test_container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("Images/map.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.test_card{
+  box-shadow: 1px 1px 10px 1px rgba(128, 128, 128, 0.27);
+  position: relative;
+  background: white !important;
+}
+.test_card::after{
+  position: absolute;
+  content: "";
+  width: 90%;
+  height: 100%;
+  bottom: -30px !important;
+  left: 25px;
+  background: rgba(245, 245, 245, 0.519);
+  opacity: .7;
+  z-index: -1;
+  box-shadow: 1px 1px 10px 1px rgba(128, 128, 128, 0.27);
+}
+.myTestimoniual{
+  padding: 30px 30px !important;
+}
+.myTestimoniual .swiper-button-next {
+  position: absolute !important;
+  top: 220px;
+  left: 0;
+  z-index: 20;
+  color: black;
+  cursor: pointer;
+  font-weight: 100 !important;
+  font-size: 16px !important;
+  text-decoration: none !important;
+}
+.myTestimoniual .swiper-button-prev {
+  position: absolute !important;
+  top: 220px;
+  right: 0;
+  margin-left: 790px;
+  z-index: 20;
+  color: black;
+  cursor: pointer;
+  font-weight: 100 !important;
+  font-size: 16px !important;
+  text-decoration: none !important;
+}
+.myTestimoniual .swiper-pagination{
+  display: none;
+}
+/* Testmoniual Section Style Here */
 /* Main End */
