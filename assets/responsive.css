@@ -76,6 +76,17 @@
   .myTestimoniual .swiper-pagination{
     display: unset !important;
   }
+  footer{
+    text-align: center;
+  }
+  .footer_input{
+    justify-content: center;
+  }
+  .sm_nav_link{
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center;
+  }
 }
 @media screen and (min-width: 577px) and (max-width: 992px) {
   .about_video_item {

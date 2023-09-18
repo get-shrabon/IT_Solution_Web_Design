@@ -715,3 +715,36 @@ nav .nav-link:hover::before {
 }
 /* Testmoniual Section Style Here */
 /* Main End */
+
+/* Footer Start */
+footer{
+  background: #201D3C;
+  padding: 100px 0px 20px 0px !important;
+}
+.footer_sm_nav{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.sm_nav_link{
+  text-decoration: none;
+  color: white;
+  opacity: .5;
+  transition: .3s all linear;
+  font-family: "Nunito Sans", sans-serif !important;
+}
+.sm_nav_link:hover{
+  opacity: 1;
+  margin-left: 5px;
+}
+footer input{
+  outline: none;
+  border: none;
+  background: #37325A;
+  padding: 10px !important;
+  color: white;
+}
+footer .p_btn{
+  padding: 13px !important;
+}
+/* Footer End */
