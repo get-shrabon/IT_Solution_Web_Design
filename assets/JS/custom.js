@@ -51,7 +51,7 @@ var swiper = new Swiper(".myExpertise", {
     dynamicBullets: true,
   },
   breakpoints: {
-    400: {
+    300: {
       slidesPerView: 1,
       spaceBetween: 20,
     },
@@ -83,7 +83,7 @@ var swiper = new Swiper(".myTestimoniual", {
     dynamicBullets: true,
   },
   breakpoints: {
-    400: {
+    300: {
       slidesPerView: 1,
       spaceBetween: 20,
     },
